@@ -1,0 +1,173 @@
+html {
+    box-sizing: border-box;
+    height: 568px;
+    width: 320px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+  
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+body {
+    font-family: 'sans-serif';
+}
+
+.center {
+    width: 320px;
+    height: 568px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+#start-screen {
+    background-image: url('Media/animation-vertical.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#finish-screen {
+    position: relative;
+}
+
+#finish-elements{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 568px;
+    width: 320px;
+}
+
+.main-title, .game-over-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    line-height: 90px;
+}
+
+.main-title {
+    margin: 0;
+    padding: 40% 0 10%;
+}
+
+.game-over-title {
+    font-size: 50px;
+    margin-top: 30%;
+    margin-bottom: 0px;
+}
+
+.info-icon {
+    float:left;
+    background-image: url('Media/info-icon.png');
+    height: 25px;
+    width: 25px;
+    margin: 135px 2px 10px 5px;
+    border-radius: 100%;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+}
+
+.instructions {
+    display: block;
+    width: 280px;
+    float: right;
+    color: white;
+    font-size: 13.5px;
+    font-family: 'Gaegu', sans-serif;
+    margin: 132px 2px 10px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.score-text {
+    margin-top: 35%;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.score {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    color: white;
+}
+
+.fact-container {
+    height: 90px;
+    margin: 1em 2em 2em;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.fact-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    line-height: 20px;
+    padding: 5% 3% 3%;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.source-text {
+    font-size: 9px;
+    font-style: italic;
+    color: white;
+    margin-top: 2px;
+}
+
+.button-home {
+    margin: 80px auto 0;
+    background-image: url('Media/home-icon2.png');
+    background-size: 40px 35px;
+    width: 40px;
+    height: 35px;
+}
+
+.button-home:hover {
+    cursor: pointer;
+}
+
+.button-start, .button-restart {
+    margin: 0 auto;
+    display: block;
+    font-family: 'Gaegu', sans-serif;
+    align-self: center;
+    background: transparent;
+    padding:6px 32px;
+    transition:all .5s ease;
+    color: white;
+    font-size: 35px;
+    letter-spacing:1px;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 2px white;
+}
+
+.button-start:hover, .button-restart:hover, .info-icon:hover{
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+    cursor: pointer;
+}
+
+h2, h3 {
+    margin: 0;
+}
